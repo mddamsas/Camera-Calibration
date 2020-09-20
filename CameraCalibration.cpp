@@ -378,15 +378,15 @@ namespace CC
     }
     
     ///////////////////////////////////////   CalibrateCamera   //////////////////////////////////////////////
-	/*********************************************************************************************************
-	This function calibrate camera using a configuration file
+    /*********************************************************************************************************
+    This function calibrate camera using a configuration file
 
-	Input:
-	ip_Filename                   -   Input configuration file name
+    Input:
+    ip_Filename                   -   Input configuration file name
 
     Output:
     out_camera_data.xml           -    XML file with camera parameters
-	**********************************************************************************************************/
+    **********************************************************************************************************/
     int CalibrateCamera(const std::string& ip_Filename)
     {
 
