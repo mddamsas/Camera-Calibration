@@ -22,15 +22,15 @@ namespace CC
 {
 
     ////////////////////////////////////// CalibrateCamera ////////////////////////////////////////////////////////
-	//! @fn  int CalibrateCamera(const std::string& ip_Filename)
-	/*! @brief This function has an essential input configuration file in XML format. In the configuration file 
+    //! @fn  int CalibrateCamera(const std::string& ip_Filename)
+    /*! @brief This function has an essential input configuration file in XML format. In the configuration file 
     you may choose to use camera as an input or an image list. If you opt for the last one, 
     need tyou will o create a configuration file where you enumerate the images to use.
 
-	@param ip_Filename                   -   Input configuration file name
+    @param ip_Filename                   -   Input configuration file name
     @param out_camera_data.xml           -    XML file with camera parameters
 
-	*/
+    */
 
     int CalibrateCamera(const std::string& ip_Filename);   
 
